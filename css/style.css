@@ -1,0 +1,35 @@
+
+.wave .rect {
+	
+    height:50px;
+    width:10px;
+    
+    animation: waves 1.2s infinite linear;
+}
+ 
+.wave .rect-1 {
+    background-color: #645CBB;
+    animation-delay: -1.2s;
+}
+
+.wave .rect-2 {
+    background-color: #FF7B54;
+    animation-delay: 1.1s; 
+}
+
+@keyframes waves {
+
+    0%,
+    40%,
+    100% {
+        transform: scale(0.4, 0.5);
+    }
+
+    20% {
+        transform: scale(0.5,1.5);
+    }
+}
+
+p {
+  caret-color: blue;
+}
